@@ -152,6 +152,35 @@ h6 {
   max-height: 40px;
 }
 
+#whatsapp-button {
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  z-index: 1000;
+}
+
+#whatsapp-button a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background-color: #25d366; /* Warna latar belakang tombol WhatsApp */
+  color: #fff; /* Warna teks tombol WhatsApp */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#whatsapp-button img {
+  width: 30px; /* Sesuaikan ukuran sesuai kebutuhan */
+  margin-right: 10px;
+}
+
+.hideContent {
+  overflow: hidden;
+  height: 100px; /* adjust as per your need */
+}
+
+
 /*--------------------------------------------------------------
 #  Get Startet Button
 --------------------------------------------------------------*/
@@ -164,6 +193,17 @@ h6 {
   font-size: 14px;
   display: inline-block;
   border: 2px solid #ffc451;
+}
+
+.img-layanan{
+  width: 100%;
+  height: auto;
+
+}
+
+.card-img-costum{
+  width: 50%;
+  height: auto;
 }
 
 .get-started-btn:hover {
