@@ -83,6 +83,7 @@
       } else {
         selectHeader.classList.remove('header-scrolled')
       }
+      
     }
     window.addEventListener('load', headerScrolled)
     onscroll(document, headerScrolled)
