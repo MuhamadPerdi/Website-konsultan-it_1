@@ -692,10 +692,10 @@ section {
 
 
 
-@media (max-width: 992px) {
+@media only screen and (max-width: 992px) {
   .carousel-item {
       min-height: 500px;
-        height: 80vh;
+        height: 50vh;
   }
   
   .carousel-item img {
@@ -704,27 +704,27 @@ section {
   }
 
   .carousel-item h5 {
-      font-size: 40px !important;
+      font-size: 20px !important;
   }
 
   .carousel-item p {
-      font-size: 16px !important;
+      font-size: 15px !important;
   }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .carousel-item {
       min-height: 400px;
-        height: 80vh;
+        height: 87vh;
   }
   
   .carousel-item img {
-      min-height: 400px;
+      min-height: 500px;
       object-fit: cover;
   }
 
   .carousel-item h5 {
-      font-size: 28px !important;
+      font-size: 19px !important;
   }
 
   .carousel-item p {
