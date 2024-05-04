@@ -1,10 +1,3 @@
-/**
-* Template Name: Gp
-* Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -40,12 +33,12 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
-  bottom: 15px;
+  right: 13px;
+  bottom: 110px;
   z-index: 996;
   background: #ffc451;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 4px;
   transition: all 0.4s;
 }
@@ -154,8 +147,8 @@ h6 {
 
 #whatsapp-button {
   position: fixed;
-  bottom: 60px;
-  right: 30px;
+  bottom: 54px;
+  right: 10px;
   z-index: 1000;
 }
 
@@ -177,8 +170,9 @@ h6 {
 
 .hideContent {
   overflow: hidden;
-  height: 100px; /* adjust as per your need */
+  height: 224px; /* adjust as per your need */
 }
+
 
 
 /*--------------------------------------------------------------
@@ -331,6 +325,8 @@ h6 {
   .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
+
+  
 }
 
 /**
@@ -443,10 +439,10 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+/* #hero {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/434202_slider.jpg") center;
+ 
   
   background-size: cover;
   position: relative;
@@ -539,7 +535,9 @@ h6 {
     font-size: 20px;
     line-height: 24px;
   }
-}
+} */
+
+
 
 /*--------------------------------------------------------------
 # Sections General
@@ -591,6 +589,152 @@ section {
   background-color: red;
   border-color: #ed3c0d;
 }
+
+.service-card {
+  max-width: 300px; /* Lebar maksimum card */
+  margin: 10px auto; /* Pusatkan card secara horizontal */
+}
+
+.img-card{
+  height: auto;
+  width: 100%;
+}
+
+/*** Carousel Start ***/
+
+.carousel-item {
+  position: relative;
+  height: 667px;
+  background-size: cover;
+  
+ 
+}
+
+.carousel-item::after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+
+.carousel-item img{
+  margin-top: -120px;
+}
+
+
+.carousel-caption {
+  bottom: 190px;
+  animation: slideup 1s ease;
+  
+}
+.carousel-caption h5{
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 28px;
+}
+
+.carousel-caption p{
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+  color: #fff;
+}
+
+.carousel-caption h5.animate-slide-left {
+  animation: slideInLeft 1s ease forwards;
+  animation-delay: 1s; /* Penundaan untuk judul */
+}
+
+.carousel-caption p.animate-slide-right {
+  animation: slideInRight 1s ease forwards;
+    animation-delay: 1.1s; /* Penundaan untuk teks */
+}
+
+@keyframes slideInLeft {
+  from {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+      transform: translateX(100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+
+
+
+
+.carousel-caption a{
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 30px;
+  display: inline-block;
+  background: darkorange;
+  counter-reset: #000;
+  margin-top: 15px;
+}
+
+
+
+@media (max-width: 992px) {
+  .carousel-item {
+      min-height: 500px;
+  }
+  
+  .carousel-item img {
+      min-height: 500px;
+      object-fit: cover;
+  }
+
+  .carousel-item h5 {
+      font-size: 40px !important;
+  }
+
+  .carousel-item p {
+      font-size: 16px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-item {
+      min-height: 400px;
+  }
+  
+  .carousel-item img {
+      min-height: 400px;
+      object-fit: cover;
+  }
+
+  .carousel-item h5 {
+      font-size: 28px !important;
+  }
+
+  .carousel-item p {
+      font-size: 14px !important;
+  }
+}
+
+
+
+
+
+/*** Carousel End ***/
 
 /*--------------------------------------------------------------
 # About

@@ -13,6 +13,10 @@
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -37,18 +41,20 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">Perdi Teknologi<span>.</span></a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Perdi Teknologi</a></h1>
 
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
+        
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto active" href="#carouselExampleIndicators">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About us</a></li>
           <li><a class="nav-link scrollto" href="#services">Layanan</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Gallery</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact us</a></li>
+        </ul>
           
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -56,36 +62,58 @@
     
     </div>
   </header><!-- End Header -->
+  
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center justify-content-center">
-    <div class="container" data-aos="fade-up">
-
-      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
-        <div class="col-xl-6 col-lg-8">
-          <h1>
-            Bertumbuh Bersama
-            Perdi Teknologi<span>.</span></h1>
-          <h2>Jangan di tunda-tunda untuk anda
-            mengembangkan bisnis dan jadi yang terbaik</h2>
-        </div>
-      </div>
-
-     
-
-    </div>
-    <div id="whatsapp-button">
-      <a href="https://wa.me/6289516037847?text=Halo%2C%20saya%20tertarik%20untuk%20mendapatkan%20informasi%20lebih%20lanjut" target="_blank">
-        <img src="./assets/img/wa.png" alt="WhatsApp">
-        <span>Hubungi Saya</span>
-      </a>
-    </div>
-    
-  </section>
   
+  <!-- Carousel Start -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+   
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/img/slide 1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h5 class="animate-slide-left"> Bertumbuh Bersama
+            Perdi Teknologi </h5>
+          <p class="animate-slide-right">Jangan di tunda-tunda untuk anda
+            mengembangkan bisnis dan jadi yang terbaik</p>
+          </div>
+         
+        </div>
+      <div class="carousel-item">
+        <img src="./assets/img/Perusahaan-Konsultan-IT-Terbaik-di-Jakarta-768x512.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h5 class="animate-slide-left"> Konsultan IT yang Dipercaya</h5>
+          <p class="animate-slide-right"> konsultan IT yang dipercaya dan berpengalaman dalam membantu klien meraih kesuksesan melalui teknologi.</p>
+      </div>
+           </div>
+      
+           <div class="carousel-item">
+            <img src="./assets/img/slide/slide-17.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5 class="animate-slide-left"> Kemitraan Strategis untuk Sukses Bisnis Anda
+                 </h5>
+              <p class="animate-slide-right">Di sini tidak hanya menjadi penyedia layanan, tetapi juga kemitraan strategis yang membantu klien mencapai kesuksesan dalam bisnis mereka melalui teknologi.</p>
+          </div>
+               </div>
+      </div>
+  </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      
+    </button>
+  </div><!-- Carousel End -->
   
   <!-- End Hero -->
   
+  <div id="whatsapp-button">
+    <a href="https://wa.me/6289516037847?text=Halo%2C%20saya%20tertarik%20untuk%20mendapatkan%20informasi%20lebih%20lanjut" target="_blank">
+      <img src="./assets/img/wa.png" alt="WhatsApp">
+      <span>Hubungi Saya</span>
+    </a>
+  </div>
 
   <main id="main">
 
@@ -133,6 +161,7 @@
                 
                 Jadilah bagian dari masa depan digital yang cerah dengan WAN Teknologi Internasional. Hubungi kami untuk membahas kebutuhan dan visi bisnis Anda. Bersama, kami akan merancang solusi IT yang memberdayakan bisnis Anda, menghadirkan pertumbuhan yang berkelanjutan, dan membangun keunggulan kompetitif dalam dunia digital yang terus berubah.</p>
             </div>
+            
             <button class="btn btn-custom btn-success readMoreBtn"><span>Read More</span></button>
           
           </div>
@@ -145,86 +174,92 @@
 
    <br>
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>layanan</h2>
-          <p class="">Layanan Perdi Teknologi</p>
+      <!-- Services Start -->
+      <div class="container-fluid services py-5 mb-5" id="services">
+        <div class="container">
+            <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                
+                <h1>Layanan Perdi Teknologi</h1>
+            </div>
+            <div class="row g-5 services-inner">
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                    <div class="services-item bg-light">
+                        <div class="p-4 text-center services-content">
+                            <div class="services-content-icon">
+                                <i class="fa fa-code fa-7x mb-4 text-primary"></i>
+                                <h4 class="mb-3">Web Design</h4>
+                                <p class="mb-4">Web desain melibatkan proses menciptakan tampilan yang bagus dan pengalaman pengguna yang menarik dan fungsional untuk situs web yang ingin ditampilkan.</p>
+                                <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                    <div class="services-item bg-light">
+                        <div class="p-4 text-center services-content">
+                            <div class="services-content-icon">
+                                <i class="fa fa-file-code fa-7x mb-4 text-primary"></i>
+                                <h4 class="mb-3">Web Development</h4>
+                                <p class="mb-4">Web development adalah proses membangun, mengembangkan, dan memelihara situs web untuk mencapai tujuan bisnis atau kebutuhan pengguna.</p>
+                                <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                    <div class="services-item bg-light">
+                        <div class="p-4 text-center services-content">
+                            <div class="services-content-icon">
+                                <i class="fa fa-external-link-alt fa-7x mb-4 text-primary"></i>
+                                <h4 class="mb-3">UI/UX Design</h4>
+                                <p class="mb-4">UI/UX Design adalah proses merancang antarmuka pengguna yang intuitif dan pengalaman pengguna yang memuaskan dalam aplikasi atau situs web.
+                                  
+                                </p>
+                                <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                    <div class="services-item bg-light">
+                        <div class="p-4 text-center services-content">
+                            <div class="services-content-icon">
+                                <i class="fas fa-user-secret fa-7x mb-4 text-primary"></i>
+                                <h4 class="mb-3">Web Security</h4>
+                                <p class="mb-4">Keamanan web adalah prioritas utama untuk melindungi informasi sensitif pengguna, infrastruktur online, dan kerentanan cyber.</p>
+                                <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                    <div class="services-item bg-light">
+                        <div class="p-4 text-center services-content">
+                            <div class="services-content-icon">
+                                <i class="fa fa-envelope-open fa-7x mb-4 text-primary"></i>
+                                <h4 class="mb-3">Digital Marketing</h4>
+                                <p class="mb-4">Digital marketing adalah strategi pemasaran yang memanfaatkan platform digital untuk mencapai target audiens.</p>
+                                <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                    <div class="services-item bg-light">
+                        <div class="p-4 text-center services-content">
+                            <div class="services-content-icon">
+                                <i class="fas fa-laptop fa-7x mb-4 text-primary"></i>
+                                <h4 class="mb-3">Programming</h4>
+                                <p class="mb-4">Programming adalah proses membuat instruksi yang dapat dipahami oleh komputer untuk mengeksekusi tugas-tugas tertentu sesuai kebutuhan.</p>
+                                <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
-            <div class="card text-center mb-3 ">
-            <div class="icon-box">
-              <div class="card-body">
-                <img src="./assets/img/144748_layanan.png" class="card-img" alt="...">
-              </div><br>
-              <h2>Aplikasi</h2>
-            </div>
-            </div>
-          </div>
-            
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
-            <div class="card text-center mb-3 ">
-            <div class="icon-box">
-              <div class="card-body">
-                <img src="./assets/img/1258_layanan.png" class="card-img" alt="...">
-              </div><br>
-              <h3><span>Maintenance</span></h3>
-            </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
-            <div class="card text-center mb-3 ">
-            <div class="icon-box">
-              <div class="card-body">
-                <img src="./assets/img/19736_layanan.png" class="card-img" alt="...">
-              </div><br>
-              <h3><span>Website</span></h>
-            </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
-            <div class="card text-center mb-3 ">
-            <div class="icon-box">
-              <div class="card-body">
-                <img src="./assets/img/336950_layanan.png" class="card-img" alt="...">
-              </div><br>
-              <h3>Desain</h>
-            </div>
-            </div>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
-            <div class="card text-center mb-3 ">
-            <div class="icon-box">
-              <div class="card-body">
-                <img src="./assets/img/376391_layanan.png" class="card-img" alt="...">
-              </div><br>
-              <h3>Android IOS</h>
-            </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
-            <div class="card text-center mb-3 ">
-            <div class="icon-box">
-              <div class="card-body">
-                <img src="./assets/img/903845_layanan.png" class="card-img" alt="...">
-              </div><br>
-              <h3>Training</h3>
-            </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
+    </div><!-- End Services Section -->
 
    
 
@@ -432,7 +467,7 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Perdi Teknologi<span>.</span></h3>
+              <h3>Perdi Teknologi</h3>
               <p>
                 Tlk. Pinang, Kec. Ciawi, Kabupaten Bogor, Jawa Barat<br><br>
                 <strong>Phone:</strong> +62 85814072818<br>

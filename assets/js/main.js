@@ -1,10 +1,4 @@
-/**
-* Template Name: Gp
-* Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 (function() {
   "use strict";
@@ -41,6 +35,8 @@
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
   }
+
+  
 
   /**
    * Navbar links active state on scroll
@@ -156,6 +152,8 @@
     }
   });
 
+  
+
   /**
    * Preloader
    */
@@ -201,6 +199,8 @@
       }
     }
   });
+
+  
 
   /**
    * Porfolio isotope and filter
